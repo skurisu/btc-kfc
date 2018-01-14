@@ -1,0 +1,14 @@
+body {
+    font-family: 'Fredoka One', sans-serif;
+    /* font-family: 'Luckiest Guy', cursive; */
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.App {
+    text-align: center;
+    padding-right: 200px;
+    padding-left: 200px;
+}
