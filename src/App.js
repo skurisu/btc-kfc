@@ -42,6 +42,15 @@ class App extends Component {
           </span>
         </p>
         <img src={friedChickenBucket} alt="Happiest bucket of chicken ever" />
+        <div className="blurb">
+          <p>
+            Hi there! This is Annie and Sarah, we're two American girls who had
+            no interest in Bitcoin until we discovered it could be used to
+            purchase fried chicken...in Canada.
+          </p>
+          <p>Help us buy a bucket!</p>
+          <p>BTC: 15jMWViGCSR5nbNkygGtiEgmS25aAiHCaA</p>
+        </div>
       </div>
     );
   }
