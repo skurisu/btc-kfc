@@ -9,6 +9,12 @@ h1 {
 
 .App {
     text-align: center;
-    padding-right: 200px;
-    padding-left: 200px;
+    padding: 0 10px;
+    margin: 0 auto;
+    max-width: 75rem;
+}
+
+img {
+	width: 80%;
+	max-width: 45rem;
 }

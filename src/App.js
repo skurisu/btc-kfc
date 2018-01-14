@@ -38,7 +38,6 @@ class App extends Component {
       <div className="App">
         <h1 className="main-text">BTC-KFC</h1>
         <img src={friedChickenBucket} />
-        <img src={friedChickenBucket2} />
         <p>{this.state.buckets}</p>
       </div>
     );
