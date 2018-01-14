@@ -36,19 +36,12 @@ class App extends Component {
       <div className="App">
         <h1 className="main-text">BTC-KFC</h1>
         <p className="ticker">{this.state.buckets}</p>
-        <p><span>
-          * In USD (based on the price of KFC's 12 piece chicken only bucket)
-        </span></p>
+        <p>
+          <span>
+            * In USD (based on the price of KFC's 12 piece chicken only bucket)
+          </span>
+        </p>
         <img src={friedChickenBucket} alt="Happiest bucket of chicken ever" />
-        <div className="blurb">
-          <p>
-            Hi there! This is Annie and Sarah, we're two American girls who had
-            no interest in Bitcoin until we discovered it could be used to
-            purchase fried chicken...in Canada.
-          </p>
-          <p>Help us buy a bucket!</p>
-          <p>BTC: 15jMWViGCSR5nbNkygGtiEgmS25aAiHCaA</p>
-        </div>
       </div>
     );
   }
