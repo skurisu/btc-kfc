@@ -36,9 +36,9 @@ class App extends Component {
       <div className="App">
         <h1 className="main-text">BTC-KFC</h1>
         <p className="ticker">{this.state.buckets}</p>
-        <span>
+        <p><span>
           * In USD (based on the price of KFC's 12 piece chicken only bucket)
-        </span>
+        </span></p>
         <img src={friedChickenBucket} alt="Happiest bucket of chicken ever" />
         <div className="blurb">
           <p>

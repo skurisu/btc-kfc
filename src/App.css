@@ -19,6 +19,7 @@ img {
     width: 80%;
     max-width: 45rem;
     margin-left: 3.75rem;
+    margin-top: 1.25rem;
 }
 
 .ticker {
@@ -32,8 +33,7 @@ img {
 }
 
 .blurb {
-    margin: auto;
-    width: 50%;
+    max-width: 45rem;
+    margin: 3.125rem auto 0 auto;
     text-align: left;
-    margin-top: 75px;
 }
