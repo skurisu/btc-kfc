@@ -1,6 +1,6 @@
 body {
     font-family: 'Fredoka One', sans-serif;
-    /* font-family: 'Luckiest Guy', cursive; */
+    background-color: white;
 }
 
 h1.main-text {
@@ -29,4 +29,11 @@ img {
     img {
         margin-left: 0;
     }
+}
+
+.blurb {
+    margin: auto;
+    width: 50%;
+    text-align: left;
+    margin-top: 75px;
 }
