@@ -3,8 +3,9 @@ body {
     /* font-family: 'Luckiest Guy', cursive; */
 }
 
-h1 {
+h1.main-text {
     font-size: 4em;
+    margin-bottom: 0;
 }
 
 .App {
@@ -15,15 +16,17 @@ h1 {
 }
 
 img {
-	width: 80%;
-	max-width: 45rem;
-	margin-left: 3.75rem;
+    width: 80%;
+    max-width: 45rem;
+    margin-left: 3.75rem;
 }
 
 .ticker {
-	font-size: 2em;
+    font-size: 2em;
+    margin-top: 0;
 }
-
 @media all and (max-width: 57.5rem) {
-	img { margin-left: 0; }
+    img {
+        margin-left: 0;
+    }
 }
