@@ -13,7 +13,6 @@ class App extends Component {
 
   setBucketsToState = () => {
     this.getNumFriedChickenBuckets().then(buckets => {
-      console.log(buckets);
       this.setState({ buckets });
     });
   };
