@@ -39,7 +39,7 @@ class App extends Component {
         <span>
           * In USD (based on the price of KFC's 12 piece chicken only bucket)
         </span>
-        <img src={friedChickenBucket} />
+        <img src={friedChickenBucket} alt="Happiest bucket of chicken ever" />
       </div>
     );
   }
